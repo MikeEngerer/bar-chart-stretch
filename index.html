@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Bar Chart Generator</title>
+		<script src="scripts/jquery-3.3.1.js"></script>
+	</head>
+	<body>
+		<div>
+		<h1>Custom Bar Chart Generator</h1>
+			<h2>Data</h2>
+				x-axis labels:Values:<br>
+				<input type="text" id="xLabel1" placeholder="Label 1"><input type="text" id="value1" placeholder="Value"><br>
+				<input type="text" id="xLabel2" placeholder="Label 2"><input type="text" id="value2" placeholder="Value"><br>
+				<input type="text" id="xLabel3" placeholder="Label 3"><input type="text" id="value3" placeholder="Value"><br>
+				<input type="text" id="xLabel4" placeholder="Label 4"><input type="text" id="value4" placeholder="Value"><br>
+				<input type="text" id="xLabel5" placeholder="Label 5"><input type="text" id="value5" placeholder="Value"><br>
+				<input type="text" id="xLabel6" placeholder="Label 6"><input type="text" id="value6" placeholder="Value"><br>
+				<input type="text" id="xLabel7" placeholder="Label 7"><input type="text" id="value7" placeholder="Value"><br>
+				<input type="text" id="xLabel8" placeholder="Label 8"><input type="text" id="value8" placeholder="Value"><br>
+				<input type="text" id="xLabel9" placeholder="Label 9"><input type="text" id="value9" placeholder="Value"><br>
+				<input type="text" id="xLabel10" placeholder="Label 10"><input type="text" id="value10" placeholder="Value"><br>
+				<input type="text" id="xLabel11" placeholder="Label 11"><input type="text" id="value11" placeholder="Value"><br>
+				<input type="text" id="xLabel12" placeholder="Label 12"><input type="text" id="value12" placeholder="Value"><br>
+	
+			<h2>Options</h2>
+<!-- 			<form id="formData"> -->
+				Height:<br>
+				<input type="text" id="height" placeholder="Pixel value as integer"><br>
+				Width:<br>
+				<input type="text" id="width" placeholder="Pixel value as integer"><br>
+				Bar Colour:<br>
+				<input type="color" id="barColour"><br>
+				Label Colour:<br>
+				<input type="color" id="labelColour"><br>
+				Bar Spacing:<br>
+				<input type="text" id="barSpacing" placeholder="Pixel value as integer"><br>
+				Axes:<br>
+				<button name="submit" id="submit">Submit</button>
+<!-- 			</form> -->
+		</div>
+		<div id="graph"></div>
+	</body>
+</html>
+<script src="scripts/chartGenerator.js"></script>
+<!-- <script>
+	$(document).ready(function() {
+		$("#submit").click(function() {
+			var height = $("#height").val();
+			console.log(height);
+		});
+	});
+</script> -->
